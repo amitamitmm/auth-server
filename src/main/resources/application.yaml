@@ -49,6 +49,6 @@ app:
     email: support@yourapp.com
 
 twilio:
-  account-sid: AC658d87fc439bf95190995f22d79e37d3
-  auth-token: 580b577486b7f159be009ae54a2d1354
+  account-sid: accountSid1234567890abcdef
+  auth-token: accountToken1234567890abcdef
   from-number: +14435683576   # Twilio phone number
