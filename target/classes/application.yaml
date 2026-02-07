@@ -50,5 +50,5 @@ app:
 
 twilio:
   account-sid: AC658d87fc439bf95190995f22d79e37d3
-  auth-token: 580b577486b7f159be009ae54a2d1354
+  auth-token: 84e6a69bb78694cba80c47073415d0b3
   from-number: +14435683576   # Twilio phone number

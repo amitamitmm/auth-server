@@ -37,7 +37,7 @@ public class SmsService {
      */
     public void sendOtpSms(String mobileNumber, String otp, String purpose) {
         String message = buildSmsMessage(otp, purpose);
-
+            mobileNumber = "+91"+mobileNumber;
         try {
             Message twilioMessage = Message.creator(
                     new PhoneNumber(mobileNumber),

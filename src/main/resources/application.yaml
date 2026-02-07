@@ -20,8 +20,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: aptota.technologies@gmail.com
-    password: gowf lptm vtdp qcia
+    username: *************@gmail.com
+    password: *********appPassword
     properties:
       mail:
         smtp:
@@ -40,8 +40,8 @@ otp:
 sms:
   provider:
     api:
-      key: 580b577486b7f159be009ae54a2d1354
-      url: https://api.twilio.com/2010-04-01/Accounts/AC658d87fc439bf95190995f22d79e37d3/Messages.json
+      key: 580b577486b45457f159b343e009ae54a2d1354
+      url: https://api.twilio.com
 
 app:
   name: Auth Server
@@ -49,6 +49,6 @@ app:
     email: support@yourapp.com
 
 twilio:
-  account-sid: accountSid1234567890abcffdef
-  auth-token: accountToken1234567890abcffdef
+  account-sid: **********accountSid
+  auth-token: ***********authToken
   from-number: +14435683576   # Twilio phone number
